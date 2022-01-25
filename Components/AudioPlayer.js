@@ -83,7 +83,7 @@ function AudioPlayer(){
         changeRange();
     }
 
-    console.log((duration && !isNaN(duration)))
+    
     return(
         <div className={styles.audioPlayer}>
             <audio 
